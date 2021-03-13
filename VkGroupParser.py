@@ -30,7 +30,7 @@ def start(group_id):
         database="postgres",
         user="postgres",
         password="postgres",
-        host="localhost",
+        host="postgresdm.cqwsq96j6gje.us-east-1.rds.amazonaws.com",
         port="5432"
     )
     cursor = conn.cursor()
